@@ -1,7 +1,7 @@
-CREATE DATABASE IF NOT EXISTS race_war;
+CREATE DATABASE IF NOT EXISTS races;
 
 
-use race_war;
+use races;
 
 CREATE TABLE weapons (weapon_id integer not null auto_increment primary key,weapon_name varchar(20),weapon_image_path varchar(200),weapon_race varchar(20),attack_modifier integer,speed_modifier integer,weapon_points integer);
 
